@@ -2,15 +2,32 @@
 .html{
     font-size: 65%;
 }
+.top{
+    background-color: cadetblue;
+    border: 5px solid $b;
+    font-size: 9rem;
+    display: flex;
+    justify-content: center;
+}
 .flex-daddy{
     display: flex;
-    align-items: center;
-    
+    justify-content: space-around;
+    background-color: rgb(140, 0, 255);
+    height: 130rem;
+
     
     
 }
 .flex-child{
-        
+    margin: 4rem 0rem 0 0rem;
+    display: flex;
+    
+    width: 19%;
+    
+    text-align: center;
+    background-color: $background-color2;
+    border: 3px solid $text-color;
+    
 }
 .kinky{
 
