@@ -26,6 +26,7 @@
 }
 
 .container2 {
+  max-height: 20%;
   position: relative;
   background-color: #85c4ff;
   display: -webkit-box;
@@ -33,11 +34,12 @@
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  top: 70%;
 }
 
 .has {
-  background-color: #8c00ff;
+  background-image: url("../media/safe.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   height: 150rem;
   position: absolute;
 }
@@ -47,11 +49,15 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-height: 100%;
   max-width: 20%;
+  height: 100%;
   text-align: center;
   background-color: #00b5fd9a;
   border: 3px solid #fdf900;
+}
+
+.kinky {
+  height: 50%;
 }
 
 .shalom {
@@ -60,7 +66,7 @@
 }
 
 #the {
-  font-size: 5em;
+  font-size: 3rem;
 }
 
 .flex-daddy {
