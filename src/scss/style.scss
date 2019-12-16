@@ -25,7 +25,7 @@
     background-color: #85c4ff;
     display: flex;
     justify-content: space-around;
-    
+    top: 60%;
 }
 .has{
     background-image: url("../media/safe.jpg");
@@ -58,5 +58,18 @@
     font-size: 3rem;
 }
 .flex-daddy{
+    max-width: 20%;
+    max-height: 25%;
     display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    border: 3px solid $b;
+}
+.img-box{
+    flex-shrink: 0;
+    max-width: 100%;
+    max-height: 100%;
+    
 }
