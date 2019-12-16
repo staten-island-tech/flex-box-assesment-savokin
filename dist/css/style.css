@@ -40,6 +40,7 @@
 .has {
   background-image: url("../media/safe.jpg");
   background-size: cover;
+  background-position: center center;
   background-repeat: no-repeat;
   height: 150rem;
   position: absolute;
